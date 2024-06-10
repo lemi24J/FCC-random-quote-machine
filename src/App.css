@@ -1,0 +1,67 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box {width: 500px;
+  margin: o auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: left;
+  background-color: #eae4e4;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px  rgba(16, 15, 15, 0.788);
+  } 
+  .quote-content{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  #author {
+    text-align: right;
+  }
+  p{
+    font-size: 1,125rem;
+  }
+  a {
+border-radius: 8px;
+border: 1px solid transparent;
+padding: 0.6em 1.2em;
+width: fit-content;
+font-weight: 500;
+background: #1a1a1a;
+cursor: pointer;
+color: aliceblue;
+font-size: 1em;
+text-align: right;
+position: relative;
+margin: 10px;
+top: 40px;
+  }
+  #tumblr-quote{
+    margin: 85px;
+    top: 15px;
+  }
+  button{
+    border-radius: 8px;
+border: 1px solid transparent;
+padding: 0.6em 1.2em;
+width: fit-content;
+font-weight: 500;
+background: #1a1a1a;
+cursor: pointer;
+color: aliceblue;
+font-size: 1em;
+text-align: right;
+position: relative;
+left: 300px;
+top: -20px;
+;
+  }
